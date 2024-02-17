@@ -36,7 +36,7 @@ docker build -t <seu-nome>/go-graphql .
 Inicie o container:
 
 ```bash
-docker run --name golang <seu-nome>/go-graphql 
+docker run --name golang -p 8080:8080 <seu-nome>/go-graphql 
 ```
 
 ## 🧑🏽‍💻  Utilizando o projeto
